@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura While</title>
+</head>
+
+<body>
+    <h1>Estrutura De <strong>While</strong></h1>
+    <p id="numeros">Números</p>
+    <style>
+        body {
+            background-color: rgb(9, 9, 9);
+            font: normal 20pt Arial ;
+            color: aliceblue;
+        }
+    </style>
+
+    <script>
+        let texto = ""
+        let n = 0 
+            while ( n < 10){
+                texto += '<br> O Número é ' + n; n++;
+                alert(texto)
+            }
+        
+    document.getElementById('numeros').innerHTML = texto
+
+
+    </script>
+
+
+
+</body>
+
+</html>
