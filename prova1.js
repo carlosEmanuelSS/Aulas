@@ -13,12 +13,16 @@ if (cor == 'verde') {
   console.log('ordem e progesso')
 }else {
   console.log('cor invalida!')
-}
+}*/
 
-/* Q 7
-for (let evento = 2024; evento >= 2000; evento-=2){
-    console.log(evento)
-} */
+//Q 7
+/*
+for (let evento = 2024; evento >= 2000; evento -= 2) {
+  console.log(evento)
+  if (evento == 2020 || evento == 2022) {
+    console.log(evento + ' Ano de Pandemia')
+  }
+}*/
 
 
 /*let dia = 27
@@ -70,3 +74,17 @@ if (t01 == dia && t02 == mes && t03 == ano) {
     console.log('errou')
 }*/
 
+
+/*for (let tentativa = 4; tentativa >= 0; tentativa -=1) {
+  let dia = 27
+  let mes = 5
+  let ano = 2005
+  let t1 = prompt('Adivinhe o dia: ')
+  let t2 = prompt('Adivinhe o mês: ')
+  let t3 = prompt('Adivinhe o ano: ')
+  if (t1 == dia && t2 == mes && t3 == ano){
+    console.log('Você acertou !')
+    return;
+  }
+  console.log('Errou !')
+}*/
