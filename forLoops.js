@@ -20,3 +20,15 @@
     }
 }*/
 
+
+// For OF, percorre cada item de uma array
+const array = [1,2,3,4,5,6,7,8,9,10]
+
+for(let numeros of array){
+    console.log(numeros)
+}
+
+//for
+for(let i = 0; i < array.length; i++){
+    console.log(array[i])
+}
